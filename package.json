@@ -1,8 +1,7 @@
 {
   "name": "aypage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +17,7 @@
   "homepage": "https://github.com/FrannieJames/AYPage#readme",
   "dependencies": {
     "gh-pages": "^2.1.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
