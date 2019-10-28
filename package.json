@@ -3,19 +3,20 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "homepage": "https://github.io/FrannieJames/AYPage",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "gh-pages -d dist"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/FrannieJames/AYPage.git"
     },
-    "author": "",
+    "author": "praningnakooo",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/FrannieJames/AYPage/issues"
     },
-    "homepage": "https://github.com/FrannieJames/AYPage#readme",
     "dependencies": {
         "gh-pages": "^2.1.1"
     }
