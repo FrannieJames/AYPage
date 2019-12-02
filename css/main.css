@@ -16,17 +16,6 @@ html {
     z-index: 99;
 }
 
-#header {
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.6);
-    padding: 30px 10px;
-    position: fixed;
-    transition: background 0.5s ease;
-    width: 100%;
-    top: 0;
-    z-index: 99;
-}
-
 .header a {
     float: left;
     color: black;
@@ -311,7 +300,7 @@ footer p {
     padding: 0%;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 770px) {
     .options a {
         display: none;
     }
@@ -321,10 +310,11 @@ footer p {
     }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 770px) {
     .options.responsive {
         position: relative;
         padding-right: 10%;
+        display: grid;
     }
     .options.responsive .icon {
         position: absolute;
